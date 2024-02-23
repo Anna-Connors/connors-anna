@@ -1,0 +1,58 @@
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(38, 39, 36);
+    color: rgb(219, 163, 210)
+}
+
+body {
+    display: grid;
+    margin: 2%;
+}
+
+a {
+    color: hsl(317, 100%, 50%)
+}
+
+a:visited {
+    color: hsla(317, 63%, 50%, 0.3)
+}
+#grid1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+}
+
+figure {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+figure img {
+    max-width: 100%;
+    border-radius: 20%;
+}
+
+img {
+    max-width: 100%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#review {
+    border: 3px solid #B40EB8;
+    color: soft pink;
+    grid-row: 1/2;
+    padding: 10%;
+    margin: 2%;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+}
+
+#bomb {
+    color: fuchsia;
+    size: 1.4em;
+}
+
+.centered {
+    text-align: center;
+}
